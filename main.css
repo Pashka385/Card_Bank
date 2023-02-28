@@ -49,9 +49,11 @@
 }
 .back{
     transform: rotateY(180deg) translateZ(1px);
+    transform: rotateX(5deg);
 }
 .container:hover>.card{
     transform: rotateY(-180deg);
+        transform: rotateX(-5deg);
     transition: all 1s ease;
 }
 .front img{
